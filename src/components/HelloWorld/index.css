@@ -1,0 +1,27 @@
+.navigation {
+    margin: 50px auto;
+    border: 1px solid white;
+    padding: 20px; 
+    border-radius: 15px;
+}
+
+.nav-list {
+    list-style: none;
+    list-style-type: none;
+}
+
+.list-item {
+    position: relative;
+    padding-left: 20px;
+}
+
+.list-item::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border: none;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
